@@ -68,7 +68,7 @@ font-size: 30px;
     text-align: center;
 
 }
-#About h1, #Services h1{
+#About h1, #Services h1, #Order h1{
     text-align: center;
     text-transform: uppercase;
     padding: 30px;
@@ -80,4 +80,10 @@ font-size: 30px;
     height: 60vh;
     font-size: 1.7em;
     line-height: 1.5em;
+}
+
+.image{
+text-align: center;
+color: #f68b1e;
+border: 1px solid #f68b1e;
 }
