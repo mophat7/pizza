@@ -78,8 +78,10 @@ font-size: 30px;
 #About{
     width:100vw;
     height: 60vh;
-    font-size: 1.7em;
+    font-size: 1.3em;
     line-height: 1.5em;
+    padding: 100px;
+    margin: 100px;
 }
 
 .image{
@@ -103,4 +105,29 @@ footer i{
 }
 footer i:hover{
 opacity: .8;
+}
+.row h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#Services{
+    width: 100vw;
+    height: 60vh;
+    background: url('../images/3.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    overflow: hidden;
+    color: #ffffff;
+    overflow: hidden;
+    
+}
+#Services .row{
+    width: 100vw;
+    height: 60vh;
+    background: rgba(0, 0, 0, .4);
+}
+.image{
+    cursor: pointer;
 }
