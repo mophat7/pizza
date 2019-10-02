@@ -8,11 +8,12 @@
 
 header{
     width: 100vw;
-    min-height: 150px;
+    min-height: 10vh;
     background: #f68b1e;
     color: #ffffff;
-    position: sticky;
+    position: fixed;
     top: 0;
+    z-index: 1;
    }
 .header1{
     display: flex;
@@ -57,4 +58,13 @@ font-size: 30px;
 }
 .logo h1{
     cursor: pointer;
+}
+#Home{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
 }
