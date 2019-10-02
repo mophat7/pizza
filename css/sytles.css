@@ -87,3 +87,20 @@ text-align: center;
 color: #f68b1e;
 border: 1px solid #f68b1e;
 }
+footer{
+    width: 100vw;
+    min-height: 100px;
+    padding:50px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #f68b1e;
+    margin-top: 20px;
+}
+footer i{
+    color: #ffffff;
+    cursor: pointer;
+    margin:20px;
+}
+footer i:hover{
+opacity: .8;
+}
