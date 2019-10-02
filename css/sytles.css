@@ -131,3 +131,25 @@ opacity: .8;
 .image{
     cursor: pointer;
 }
+
+#orderlist{
+    width: 30%;
+    height: auto;
+    border: #f68b1e solid 2px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#title{
+    background: #f68b1e;
+    color: #ffffff;
+    text-align: center;
+}
+#Order{
+    position: relative;
+    
+}
+#ordercontent{
+    padding: 20px;
+}
