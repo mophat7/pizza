@@ -68,3 +68,16 @@ font-size: 30px;
     text-align: center;
 
 }
+#About h1, #Services h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+}
+#About{
+    width:100vw;
+    height: 60vh;
+    font-size: 1.7em;
+    line-height: 1.5em;
+}
