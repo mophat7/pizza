@@ -8,8 +8,8 @@
 
 header{
     width: 100vw;
-    height: 150px;
-    background: #4C5270;
+    min-height: 150px;
+    background: #f68b1e;
     color: #ffffff;
     position: sticky;
     top: 0;
@@ -21,4 +21,40 @@ header{
 
     justify-content: space-between;
     
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px;
+}
+nav ul li{
+    width: 200px;
+    padding: 20px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.3em;
+}
+nav ul li a:hover{
+    background: #ffffff;
+    color:#f68b1e;
+    text-decoration: none;
+}
+#contacts a{
+color: #ffffff;
+font-size: 30px;
+}
+#contacts a:hover{
+    text-decoration: none;
+    font-size: 35px;
+}
+.logo h1{
+    cursor: pointer;
 }
