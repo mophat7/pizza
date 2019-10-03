@@ -1,6 +1,12 @@
 $(document).ready(function(){
-$('.image').click(function(){
-    $('#orderlist').show();
+$(this).click(function(){
+    $('#orderlist').toggle(function(){
+        
+    });
+})
+$(this).click(()=>{
+    $('#title').HTML="<h1>Hey</h1>";
+
 })
 
 

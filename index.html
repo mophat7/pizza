@@ -46,6 +46,8 @@
     <section id="About">
         <div class="container-fluid">
             <h1>About Us</h1>
+            <div class="row">
+                <div class="col-md-12 col-xm-12 col-sm-12">
             <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of leavened wheat-based dough topped with tomatoes, cheese, and various other ingredients baked at a high temperature, traditionally in a wood-fired oven. A small pizza is sometimes called a pizzetta.
                 </p>
                 <p>History of human civilization is full of interesting dishes, but only few of them have managed to capture the imagination and respect from every corner of our world. Here you can find incredible stories about origins of pizza, and its journey from the ovens of the Italian chefs to the worldwide popularity that it has today.
@@ -53,6 +55,8 @@
                  <p>If you ever wondered how pizza managed to gain such popularity in our modern society, the answer is very easy – its can be easily and it offers infinite possibility of variation with its crusts, toppings, cheeses and sauces. Here you can find the basic steps and information about making your own pizza.
 
                     </p>
+                </div>
+                </div>
         </div>
     </section>
     <!-- End of About section -->
@@ -60,13 +64,13 @@
         <div class="container-fluid">
             <h1>Our Services</h1>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-sm-12">
                     <h2>Outside Catering</h2>
                     <p>Rather than make food hidden away in some kitchen and try to deliver it to you in a timely fashion so it does not get cold, we bring the kitchen to you and cook right in front of you. Our trailer can be pulled to your home, your office, your wedding rehearsal, or to an outdoor festival. We do all prepping outside so that you can watch your pizza being made from start to finish. It takes our crew less than five minutes to make your pizza. Did we mention the oven the cooks at over 800 degrees? BE WARNED: PTR's is the hottest fire in town, so be careful. Our pizzas are delivered straight out of the oven to you and they will be HOT!
 
                         </p>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-sm-12">
                         <h2>Training</h2>
                         <p>We are specialized in Italian cuisine online teaching.
 
@@ -104,29 +108,62 @@
             <h1>Place your Order Now</h1>
 
             <div class="row">
-                <div class="col md-4">
+                <div class="col-md-4 " >
                     <div class="image image-responsive pizza">
-                        <img src="./images/2.jpg" alt="pizzaSmall" class="pizza" title="Click to place your order">
+                        <img src="./images/2.jpg" alt="pizzaSmall" class="pizza" title="Click to place your order" id="small"> 
                         <h3>Small Size Pizza</h3>
                         <h4>Kshs. 600.00</h4>
+                        <div id="toppings">
+                            <select name="" id="">
+                                <option value="">~Select Topping~</option>
+                                <option value="pepperoni">Pepperoni</option>
+                                <option value="pepperoni">Mushrooms</option>
+                                <option value="pepperoni">Sausage</option>
+                                <option value="pepperoni">Bacon</option>
+                                <option value="pepperoni">Green Peppers</option>
+                                
+                            </select>
+                        </div>
 
                     </div>
                 </div>
 
-                <div class="col md-4">
+                <div class="col-md-4">
                         <div class="image image-responsive pizza">
                             <img src="./images/2.jpg" alt="pizzaSmall" title="Click to place your order">
                             <h3>Medium Size Pizza</h3>
                             <h4>Kshs. 800.00</h4>
+                            <div id="toppings">
+                                <select name="" id="">
+                                    <option value="">~Select Topping~</option>
+                                    <option value="pepperoni">Pepperoni</option>
+                                    <option value="pepperoni">Mushrooms</option>
+                                    <option value="pepperoni">Sausage</option>
+                                    <option value="pepperoni">Bacon</option>
+                                    <option value="pepperoni">Green Peppers</option>
+                                    
+                                </select>
+                            </div>
     
                         </div>
                     </div>
 
-                    <div class="col md-4">
+                    <div class="col-md-4">
                             <div class="image image-responsive pizza">
                                 <img src="./images/2.jpg" alt="pizzaSmall" title="Click to place your order">
                                 <h3>Large Pizza</h3>
                                 <h4>Kshs. 1,000.00</h4>
+                                <div id="toppings">
+                                    <select name="" id="">
+                                        <option value="">~Select Topping~</option>
+                                        <option value="pepperoni">Pepperoni</option>
+                                        <option value="pepperoni">Mushrooms</option>
+                                        <option value="pepperoni">Sausage</option>
+                                        <option value="pepperoni">Bacon</option>
+                                        <option value="pepperoni">Green Peppers</option>
+                                        
+                                    </select>
+                                </div>
         
                             </div>
                         </div>
@@ -144,7 +181,7 @@
                                   <th>UNIT PRICE</th>
                                 </tr>
                                 <tr>
-                                    <td>
+                                    <td id="dsmall"> 
                                         <h6>Small Size Pizza</h6>
                                     </td>
                                     <td>

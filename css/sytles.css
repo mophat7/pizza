@@ -62,11 +62,20 @@ font-size: 30px;
 #Home{
     width: 100vw;
     height: 90vh;
+    background: url('../images/4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 100px;
 
+}
+#Home h1{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 50px;
 }
 #About h1, #Services h1, #Order h1{
     text-align: center;
@@ -77,11 +86,11 @@ font-size: 30px;
 }
 #About{
     width:100vw;
-    height: 60vh;
+    height: 100vh;
     font-size: 1.3em;
     line-height: 1.5em;
-    padding: 100px;
-    margin: 100px;
+    padding-top: 100px;
+    
 }
 
 .image{
@@ -113,11 +122,12 @@ opacity: .8;
 }
 #Services{
     width: 100vw;
-    height: 60vh;
+    height: 100vh;
     background: url('../images/3.jpg');
     background-repeat:no-repeat;
     background-size: cover;
     padding-top: 100px;
+    font-size: 12px;
     overflow: hidden;
     color: #ffffff;
     overflow: hidden;
@@ -130,17 +140,18 @@ opacity: .8;
 }
 .image{
     cursor: pointer;
+    margin:20px;
 }
 
 #orderlist{
-    width: 30%;
+    width: auto;
     height: auto;
     border: #f68b1e solid 2px;
     border-radius: 30px;
     position: absolute;
     top: 0;
     right: 0;
-    margin-top: 100px;
+    margin-top: 200px;
     display: none;
 }
 #title{
@@ -150,6 +161,7 @@ opacity: .8;
 }
 #Order{
     position: relative;
+    padding-top: 100px;
     
 }
 #ordercontent{
