@@ -1,14 +1,13 @@
 $(document).ready(function(){
-$(this).click(function(){
-    $('#orderlist').toggle(function(){
+$('#small').click(function(){
+    $('#orderlist').show(function(){
         
     });
 })
+
 $(this).click(()=>{
-    $('#title').HTML="<h1>Hey</h1>";
-
+    $('#ordercontent').wrapInner((this).val());
 })
-
 
 
 
