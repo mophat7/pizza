@@ -1,5 +1,5 @@
 # Website Name
-**Pizza Tamu Restaurant **
+Pizza Tamu Restaurant
 ## Brief Description of the website
 
 
