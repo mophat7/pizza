@@ -138,34 +138,80 @@
             </div>
         </div>
     </section>
-    <!-- Transport section -->
-    <section class="container-fluid content-section ">
-        <h2 class="section-header">DELIVERY</h2>
-        <div class="shop-items row">
+    <!-- CRUST -->
+     <!-- Transport section -->
+     <section class="container-fluid content-section ">
+            <h2 class="section-header">CRUSTS</h2>
+            <div class="shop-items row">
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">Crispy</span>
+                    <img class="shop-item-image" src="./images/crispy.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Kshs.200.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
 
-            <div class="shop-item">
-                <span class="shop-item-title">Mortobike 30 Minutes within Nairobi</span>
-                <img class="shop-item-image" src="./images/bike.jpg">
-                <div class="shop-item-details">
-                    <span class="shop-item-price">Kshs.200.00</span>
-                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+    
                 </div>
-
-            </div>
-
-            <div class="shop-item">
-                <span class="shop-item-title">Road 1 hr within Nairobi CBD</span>
-                <img class="shop-item-image" src="./images/road.jpg">
-                <div class="shop-item-details">
-                    <span class="shop-item-price">Kshs.50.00</span>
-                    <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">Stuffed</span>
+                    <img class="shop-item-image" src="./images/stuffed.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Kshs.50.00</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+    
                 </div>
-
+                <div class="shop-item">
+                        <span class="shop-item-title">Gluten</span>
+                        <img class="shop-item-image" src="./images/gluten.jpg">
+                        <div class="shop-item-details">
+                            <span class="shop-item-price">Kshs.50.00</span>
+                            <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                        </div>
+        
+                    </div>
+    
+    
+    
             </div>
-
-
-        </div>
-    </section>
+        </section>
+       
+    <!-- END OF CRUST -->
+     <!-- Transport section -->
+     <section class="container-fluid content-section ">
+            <h2 class="section-header">DELIVERY</h2>
+            <div class="shop-items row">
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">Mortobike 30 Minutes within Nairobi</span>
+                    <img class="shop-item-image" src="./images/bike.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Kshs.200.00</span>
+                        <button type="button" class="btn btn-primary shop-item-button" data-toggle="modal" data-target="#exampleModal">
+                                BIKE DELIVERY
+                              </button>
+                    </div>
+    
+                </div>
+    
+                <div class="shop-item">
+                    <span class="shop-item-title">Road 1 hr within Nairobi CBD</span>
+                    <img class="shop-item-image" src="./images/road.jpg">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">Kshs.50.00</span>
+                        <button type="button" class="btn btn-primary shop-item-button" data-toggle="modal" data-target="#exampleModal">
+                            MORTOVEHICLE DELIVERY
+                              </button>                </div>
+    
+                </div>
+    
+    
+            </div>
+        </section>
+       
     <!-- End of transport section -->
     <section class="container content-section">
         <h2 class="section-header">CART</h2>
@@ -183,6 +229,35 @@
         <button class="btn btn-primary btn-purchase" type="button">Order</button>
     </section>
     <!-- end of order section -->
+    <!-- Popup -->
+    <!-- Button trigger modal -->
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Provide Details of Where you Are</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <input type="text" placeholder="Name"> 
+            <input type="text" placeholder="Location">
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="alert('We have received your contact details proceed to order and we will get back to you')" data-dismiss="modal">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <!-- End of popup -->
 
     </section>
     <footer class="container-fluid">
