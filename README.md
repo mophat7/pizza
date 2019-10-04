@@ -17,7 +17,7 @@ If for some god foresaken reason you would like to have a local copy of this, fo
 5. Open a live server on Vscode and preview it on a browser. 
 
 # Deployemnt 
-You can access this site by clicking [here](https://mophat7.github.io/Studio/)
+You can access this site by clicking [here](https://mophat7.github.io/pizza/)
 
 ## Data
 projects and events are stored `Git hub servers`. Make sure you have **strong** internet connect to load images as some images are `Hosted` Else where. 
